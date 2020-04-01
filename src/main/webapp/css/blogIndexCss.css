@@ -1,0 +1,29 @@
+#paginatorDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+#paginatorDiv ul{
+    display: inline;
+}
+#paginatorInput{
+    display: inline;
+    width: 15%;
+}
+#paginatorDiv > span{
+    margin: 0 20px;
+}
+#paginatorDiv >nav > span{
+    margin: 0 20px;
+}
+.beautifulIcon img{
+    width: 5%;
+    display: inline;
+    margin-left: 5px;
+}
+/*第4个图标thumbup 太大了*/
+.beautifulIcon img:nth-of-type(4){
+    width: 4%;
+    padding-bottom: 5px;
+}

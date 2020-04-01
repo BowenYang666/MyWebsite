@@ -1,0 +1,74 @@
+/* 小火箭css */
+#gotop1 {
+    width: 100px;
+    position: fixed;
+    bottom: 110px;
+    cursor: pointer;
+    z-index: 99998;
+    right: 3%;
+    /* margin-right: -570px; */
+}
+/*label 字体*/
+#rocketLabel
+{
+	text-align: center;
+}
+#composeLabel
+{
+	text-align: center;
+	margin-right: 30px;
+}
+/* 小火箭悬停特效 */
+
+#gotop1:hover {
+    animation: rubberBand 1s;
+}
+
+#compose:hover
+{
+	transform: scale(1.1);
+}
+/* 创作文章图标的css */
+#compose
+{
+	transition: .5s ease-in-out;
+	width: 100px;
+    position: fixed;
+    top: 80px;
+    cursor: pointer;
+    z-index: 99998;
+    right: 2%;
+    /* margin-right: -580px; */
+}
+
+@keyframes rubberBand {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  30% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
+
+  40% {
+    transform: scale3d(0.75, 1.25, 1);
+  }
+
+  50% {
+    transform: scale3d(1.15, 0.85, 1);
+  }
+
+  65% {
+    transform: scale3d(.95, 1.05, 1);
+  }
+
+  75% {
+    transform: scale3d(1.05, .95, 1);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+/* end 小火箭 */

@@ -1,0 +1,35 @@
+body{
+    background: url("../img/newAdded/showArticleBG2.jpg") no-repeat center 0px fixed;
+    background-size: cover;
+}
+.whiteDiv{
+    background-color: rgba(255,255,255,0.7);
+}
+#content{
+    margin-bottom: 50px;
+}
+.flexCenter{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.recommendImg{
+    margin: 10px 30px;
+}
+.recommendLabel{
+    text-align: center;
+    margin: 0 20px;
+    margin-bottom: 7px;
+}
+#recommendDiv{
+    padding-bottom: 20px;
+    font-size: 15px;
+}
+.recommendLabel img{
+    width: 13%;
+    margin-left: 10px;
+}
+#recommendDiv hr{
+    margin: 0;
+    border-top: 1px dashed black;
+}

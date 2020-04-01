@@ -1,0 +1,121 @@
+/*通用的css*/
+.backgroundup {
+    width: 100%;
+}
+
+.gap {
+    margin-top: 20px;
+}
+
+.gapLeft {
+    margin-left: 15px;
+}
+
+.gapTop30 {
+    margin-top: 30px;
+}
+
+.gapTop20 {
+    margin-top: 20px;
+}
+
+.gapTop10 {
+    margin-top: 10px;
+}
+
+.gapTop5 {
+    margin-top: 5px;
+}
+
+.gapLeft5 {
+    margin-left: 5px;
+}
+
+.rankFont {
+    font-size: 25px;
+    font-family: "times new roman";
+    color: red;
+}
+
+.mywhite {
+    background-color: white;
+}
+
+.myblack {
+    background-color: #101010;
+}
+
+.mypadding {
+    padding: 15px;
+}
+
+.padding30 {
+    padding: 30px;
+}
+
+.test {
+    width: 100%;
+}
+
+.paddingZero {
+    padding: 0;
+}
+
+#classify_info strong {
+    font-size: 15px;
+}
+
+.MicrosoftFont {
+    font-family: "微软雅黑";
+}
+
+.font15 {
+    font-size: 20px;
+}
+
+.marginZero {
+    margin: 0px;
+}
+
+.paddingTop30 {
+    padding-top: 30px;
+}
+
+.noPaddingRight {
+    padding-right: 0px;
+}
+
+.borderAll {
+    border: 1px solid gainsboro;
+}
+
+.borderTop {
+    border-top: 1px solid gainsboro;
+}
+
+.footerFontColor {
+    color: #CCCCCC;
+}
+
+#categoryCard ul li a {
+    outline: none;
+}
+
+#navBarDiv ul li a {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#classifyRadio input /* 圆形按钮 消除虚线框 */
+{
+    outline: none;
+}
+
+#contentDiv img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}

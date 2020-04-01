@@ -1,0 +1,12 @@
+
+$(function(){
+    /*
+    * interval为每个轮播项之间的切换时间
+    * wrap定义是否循环轮播
+    *
+    * */
+    $("#carouselMenu").carousel({
+        interval: 3000,
+        wrap: true
+    });
+})

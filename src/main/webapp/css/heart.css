@@ -1,0 +1,12 @@
+
+
+canvas {
+	display: block;
+	position: fixed;
+	bottom: 300px;
+	right: 814px;
+	
+	z-index: 20;
+	cursor: pointer;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}

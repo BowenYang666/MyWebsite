@@ -1,0 +1,10 @@
+.formDiv{
+    width: 50%;
+}
+.formDiv input{
+    margin: 5px 10px;
+}
+
+hr {
+    height:2px;background-color:black;
+}
